@@ -3,3 +3,5 @@ accessWidener	v1	named
 #used in CustomSusSandCompatibilityMixin:
 accessible    method    net/minecraft/item/Item    raycast    (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/RaycastContext$FluidHandling;)Lnet/minecraft/util/hit/BlockHitResult;
 accessible method net/minecraft/item/BrushItem getHitResult (Lnet/minecraft/entity/LivingEntity;)Lnet/minecraft/util/hit/HitResult;
+accessible field net/minecraft/structure/processor/StructureProcessorLists EMPTY Lnet/minecraft/registry/RegistryKey;
+mutable    field    net/minecraft/structure/pool/StructurePool    elementCounts    Ljava/util/List;

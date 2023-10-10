@@ -8,7 +8,10 @@
     "ElytraStartupMixin",
     "FasterBrushingMixin",
     "TorrentTotemItemTickMixin",
-    "TunnelingEnchantmentMixin"
+    "TunnelingEnchantmentMixin",
+    "RegistryLoaderMixin",
+    "PoolStructurePieceMixin",
+    "StructurePoolAccessor"
   ],
   "client": [
     "BetterArcheologyMixin"

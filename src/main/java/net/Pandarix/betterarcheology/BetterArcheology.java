@@ -10,6 +10,7 @@ import net.Pandarix.betterarcheology.networking.ModMessages;
 import net.Pandarix.betterarcheology.screen.ModScreenHandlers;
 import net.Pandarix.betterarcheology.structures.ModStructureFeatures;
 import net.Pandarix.betterarcheology.structures.ModStructures;
+import net.Pandarix.betterarcheology.structures.VillageAdditions;
 import net.Pandarix.betterarcheology.util.ModConfigs;
 import net.Pandarix.betterarcheology.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
@@ -48,5 +49,6 @@ public class BetterArcheology implements ModInitializer {
 		ModEnchantments.registerModEnchantments();
 
 		ModStructureFeatures.registerStructureFeatures();
+		VillageAdditions.registerNewVillageStructures();
 	}
 }
